@@ -1,0 +1,97 @@
+2024-04-17 00:11:18 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.109 with PID 31440 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-17 00:11:18 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-17 00:11:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2024-04-17 00:11:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-04-17 00:11:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-17 00:11:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-17 00:11:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-17 00:11:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1353 ms
+2024-04-17 00:11:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-04-17 00:11:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+2024-04-17 00:11:20 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 3.182 seconds (JVM running for 3.794)
+2024-04-17 00:11:40 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.109 with PID 31523 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-17 00:11:40 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-17 00:11:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2024-04-17 00:11:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-04-17 00:11:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-17 00:11:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-17 00:11:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-17 00:11:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1280 ms
+2024-04-17 00:11:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-04-17 00:11:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+2024-04-17 00:11:43 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 3.002 seconds (JVM running for 3.683)
+2024-04-17 00:11:48 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-17 00:11:48 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-17 00:11:48 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-04-17 00:11:52 [http-nio-8091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-04-17 00:11:52 [http-nio-8091-exec-1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-04-17 17:34:40 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 4740 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-17 17:34:40 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-17 17:34:41 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2024-04-17 17:34:41 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:34:41 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-17 17:34:41 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-17 17:34:41 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-17 17:34:41 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1265 ms
+2024-04-17 17:34:42 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:34:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+2024-04-17 17:34:43 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 3.119 seconds (JVM running for 3.885)
+2024-04-17 17:35:16 [http-nio-8091-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-17 17:35:16 [http-nio-8091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-17 17:35:16 [http-nio-8091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2024-04-17 17:36:58 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 5193 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-17 17:36:58 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-17 17:36:59 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2024-04-17 17:36:59 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:36:59 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-17 17:36:59 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-17 17:36:59 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-17 17:36:59 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1447 ms
+2024-04-17 17:37:00 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:37:00 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+2024-04-17 17:37:00 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 3.738 seconds (JVM running for 4.388)
+2024-04-17 17:39:52 [http-nio-8091-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-17 17:39:52 [http-nio-8091-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-17 17:39:52 [http-nio-8091-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2024-04-17 17:45:18 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 6758 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-17 17:45:18 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-17 17:45:19 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2024-04-17 17:45:19 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:45:19 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-17 17:45:19 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-17 17:45:19 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-17 17:45:19 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1301 ms
+2024-04-17 17:45:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:45:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+2024-04-17 17:45:20 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 3.307 seconds (JVM running for 3.984)
+2024-04-17 17:45:49 [http-nio-8091-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-17 17:45:49 [http-nio-8091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-17 17:45:49 [http-nio-8091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 3 ms
+2024-04-17 17:47:51 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 7245 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-17 17:47:51 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-17 17:47:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2024-04-17 17:47:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:47:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-17 17:47:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-17 17:47:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-17 17:47:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1291 ms
+2024-04-17 17:47:53 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:47:54 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+2024-04-17 17:47:54 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 3.158 seconds (JVM running for 3.824)
+2024-04-17 17:48:16 [http-nio-8091-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-17 17:48:16 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-17 17:48:16 [http-nio-8091-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2024-04-17 17:57:43 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 1681 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-17 17:57:43 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-17 17:57:45 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8091 (http)
+2024-04-17 17:57:45 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:57:45 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-17 17:57:45 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-17 17:57:45 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-17 17:57:45 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1423 ms
+2024-04-17 17:57:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8091"]
+2024-04-17 17:57:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8091 (http) with context path ''
+2024-04-17 17:57:46 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 3.407 seconds (JVM running for 4.429)
+2024-04-17 17:58:10 [http-nio-8091-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-17 17:58:10 [http-nio-8091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-17 17:58:10 [http-nio-8091-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 4 ms

@@ -1,0 +1,911 @@
+2024-04-24 00:13:54 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 16581 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:13:54 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:13:54 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:13:55 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+2024-04-24 00:13:55 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 00:13:55 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:612)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:602)
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:110)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:815)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:812)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:783)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:192)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:16)
+Caused by: java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:203)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:699)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1094)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1074)
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:551)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:524)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:602)
+	... 22 common frames omitted
+2024-04-24 00:16:41 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 17121 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:16:41 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:16:41 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:16:42 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+2024-04-24 00:16:42 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 00:16:42 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:612)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:602)
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:110)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:815)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:812)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:783)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:192)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:16)
+Caused by: java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:203)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:699)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1094)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1074)
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:551)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:524)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:602)
+	... 22 common frames omitted
+2024-04-24 00:20:49 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 17914 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:20:49 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:20:49 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:20:50 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+2024-04-24 00:20:50 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 00:20:50 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:612)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:602)
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:110)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:815)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:812)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:783)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:192)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:16)
+Caused by: java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:203)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:699)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1094)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1074)
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:551)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:524)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:602)
+	... 22 common frames omitted
+2024-04-24 00:21:43 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 18121 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:21:43 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:21:43 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:21:43 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+2024-04-24 00:21:43 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 00:21:43 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to process import candidates for configuration class [springfox.boot.starter.autoconfigure.OpenApiAutoConfiguration]; nested exception is java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:612)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:602)
+	at org.springframework.context.annotation.ConfigurationClassParser.access$800(ConfigurationClassParser.java:110)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.lambda$processGroupImports$1(ConfigurationClassParser.java:815)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorGroupingHandler.processGroupImports(ConfigurationClassParser.java:812)
+	at org.springframework.context.annotation.ConfigurationClassParser$DeferredImportSelectorHandler.process(ConfigurationClassParser.java:783)
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:192)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:756)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:572)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:15)
+Caused by: java.io.FileNotFoundException: class path resource [springfox/documentation/spring/web/SpringfoxWebConfiguration.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:203)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55)
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86)
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73)
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81)
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:699)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getRelated(ConfigurationClassParser.java:1094)
+	at org.springframework.context.annotation.ConfigurationClassParser$SourceClass.getAnnotationAttributes(ConfigurationClassParser.java:1074)
+	at org.springframework.context.annotation.ConfigurationClassParser.collectImports(ConfigurationClassParser.java:551)
+	at org.springframework.context.annotation.ConfigurationClassParser.getImports(ConfigurationClassParser.java:524)
+	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:310)
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:249)
+	at org.springframework.context.annotation.ConfigurationClassParser.processImports(ConfigurationClassParser.java:602)
+	... 22 common frames omitted
+2024-04-24 00:25:04 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 18766 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:25:04 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:25:04 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:25:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:25:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:25:05 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:25:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:25:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:25:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:25:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:25:06 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:25:06 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1784 ms
+2024-04-24 00:25:06 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sftpConnectConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'remoteserver.port' in value "${remoteserver.port}"
+2024-04-24 00:25:06 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-24 00:25:06 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 00:25:06 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sftpConnectConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'remoteserver.port' in value "${remoteserver.port}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:15)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'remoteserver.port' in value "${remoteserver.port}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+	... 17 common frames omitted
+2024-04-24 00:26:29 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 19077 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:26:29 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:26:29 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:26:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:26:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:26:31 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:26:31 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:26:31 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:26:31 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:26:31 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:26:31 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:26:31 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2210 ms
+2024-04-24 00:26:36 [main] ERROR c.g.p.m.c.config.SftpConnectConfig - 连接失败
+com.jcraft.jsch.JSchException: Session.connect: java.net.SocketException: Connection reset
+	at com.jcraft.jsch.Session.connect(Session.java:565)
+	at com.jcraft.jsch.Session.connect(Session.java:183)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig.getSession(SftpConnectConfig.java:55)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig.channelSftp(SftpConnectConfig.java:67)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig$$EnhancerBySpringCGLIB$$b9a52cbd.CGLIB$channelSftp$0(<generated>)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig$$EnhancerBySpringCGLIB$$b9a52cbd$$FastClassBySpringCGLIB$$719338fa.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig$$EnhancerBySpringCGLIB$$b9a52cbd.channelSftp(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:15)
+2024-04-24 00:26:36 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'channelSftp' is expected to be of type 'com.jcraft.jsch.ChannelSftp' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+2024-04-24 00:26:36 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-24 00:26:36 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 00:26:36 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'channelSftp' is expected to be of type 'com.jcraft.jsch.ChannelSftp' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:15)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'channelSftp' is expected to be of type 'com.jcraft.jsch.ChannelSftp' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'channelSftp' is expected to be of type 'com.jcraft.jsch.ChannelSftp' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:417)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:398)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 31 common frames omitted
+2024-04-24 00:28:49 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 19535 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:28:49 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:28:49 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:28:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:28:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:28:51 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:28:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:28:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:28:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:28:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:28:51 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:28:51 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2284 ms
+2024-04-24 00:28:56 [main] ERROR c.g.p.m.c.config.SftpConnectConfig - 连接失败
+com.jcraft.jsch.JSchException: Session.connect: java.net.SocketException: Connection reset
+	at com.jcraft.jsch.Session.connect(Session.java:565)
+	at com.jcraft.jsch.Session.connect(Session.java:183)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig.getSession(SftpConnectConfig.java:55)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig.channelSftp(SftpConnectConfig.java:67)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig$$EnhancerBySpringCGLIB$$a72be61b.CGLIB$channelSftp$0(<generated>)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig$$EnhancerBySpringCGLIB$$a72be61b$$FastClassBySpringCGLIB$$52427224.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:331)
+	at com.gykj.patch.manager.common.config.SftpConnectConfig$$EnhancerBySpringCGLIB$$a72be61b.channelSftp(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:154)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiate(ConstructorResolver.java:648)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:481)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1352)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1195)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:582)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:15)
+2024-04-24 00:28:56 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'channelSftp' is expected to be of type 'com.jcraft.jsch.ChannelSftp' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+2024-04-24 00:28:56 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-24 00:28:56 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 00:28:56 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'fileController': Unsatisfied dependency expressed through field 'fileService'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'channelSftp' is expected to be of type 'com.jcraft.jsch.ChannelSftp' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:713)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:693)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:408)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:929)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:591)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:15)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'fileService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'channelSftp' is expected to be of type 'com.jcraft.jsch.ChannelSftp' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:332)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1391)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:710)
+	... 20 common frames omitted
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'channelSftp' is expected to be of type 'com.jcraft.jsch.ChannelSftp' but was actually of type 'org.springframework.beans.factory.support.NullBean'
+	at org.springframework.beans.factory.support.AbstractBeanFactory.adaptBeanInstance(AbstractBeanFactory.java:417)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:398)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:213)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeanByName(AbstractAutowireCapableBeanFactory.java:479)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:520)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:673)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:228)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessProperties(CommonAnnotationBeanPostProcessor.java:329)
+	... 31 common frames omitted
+2024-04-24 00:31:36 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 20047 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:31:36 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:31:36 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:31:38 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:31:38 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:31:38 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:31:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:31:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:31:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:31:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:31:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:31:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2632 ms
+2024-04-24 00:31:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:31:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:31:43 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2024-04-24 00:31:44 [http-nio-8388-Acceptor] ERROR org.apache.tomcat.util.net.Acceptor - Socket accept failed
+java.nio.channels.AsynchronousCloseException: null
+	at java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:205)
+	at sun.nio.ch.ServerSocketChannelImpl.accept(ServerSocketChannelImpl.java:259)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:548)
+	at org.apache.tomcat.util.net.NioEndpoint.serverSocketAccept(NioEndpoint.java:79)
+	at org.apache.tomcat.util.net.Acceptor.run(Acceptor.java:129)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-24 00:31:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:31:44 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-24 00:31:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:31:44 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:31:44 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-24 00:31:44 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:182)
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54)
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:357)
+	at java.lang.Iterable.forEach(Iterable.java:75)
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:156)
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:124)
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:946)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:594)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:732)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:409)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1300)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1289)
+	at com.gykj.patch.manager.PatchManagerApplication.main(PatchManagerApplication.java:15)
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56)
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113)
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89)
+	at java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469)
+	at java.util.TimSort.countRunAndMakeAscending(TimSort.java:355)
+	at java.util.TimSort.sort(TimSort.java:220)
+	at java.util.Arrays.sort(Arrays.java:1512)
+	at java.util.ArrayList.sort(ArrayList.java:1464)
+	at java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:387)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.Sink$ChainedReference.end(Sink.java:258)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:483)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:708)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:499)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91)
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82)
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100)
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:179)
+	... 14 common frames omitted
+2024-04-24 00:32:44 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 20283 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:32:44 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:32:44 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:32:46 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:32:46 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:32:46 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:32:46 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:32:46 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:32:46 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:32:46 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:32:46 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:32:46 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2091 ms
+2024-04-24 00:32:49 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:32:49 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:32:49 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 5.796 seconds (JVM running for 6.667)
+2024-04-24 00:37:50 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 21235 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:37:50 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:37:50 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:37:52 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:37:52 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:37:52 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:37:52 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:37:52 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:37:52 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:37:52 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:37:52 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:37:52 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2342 ms
+2024-04-24 00:37:55 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:37:55 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:37:55 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 6.439 seconds (JVM running for 7.158)
+2024-04-24 00:42:14 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 22122 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:42:14 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:42:14 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:42:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:42:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:42:16 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:42:16 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:42:16 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:42:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:42:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:42:17 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:42:17 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2203 ms
+2024-04-24 00:42:20 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:42:20 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:42:20 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 6.662 seconds (JVM running for 7.549)
+2024-04-24 00:45:00 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 22683 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:45:00 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:45:00 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:45:02 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:45:02 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:45:02 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:45:02 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:45:02 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:45:02 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:45:02 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:45:02 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:45:02 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1933 ms
+2024-04-24 00:45:05 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:45:05 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:45:05 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 5.835 seconds (JVM running for 6.638)
+2024-04-24 00:46:35 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 22990 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:46:35 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:46:35 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:46:36 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:46:36 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:46:36 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:46:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:46:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:46:36 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:46:36 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:46:37 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:46:37 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1864 ms
+2024-04-24 00:46:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:46:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:46:40 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 5.916 seconds (JVM running for 6.647)
+2024-04-24 00:52:31 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 24142 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:52:31 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:52:31 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:52:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:52:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:52:33 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:52:33 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:52:33 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:52:33 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:52:33 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:52:33 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:52:33 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1916 ms
+2024-04-24 00:52:36 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:52:36 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:52:36 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 5.768 seconds (JVM running for 6.456)
+2024-04-24 00:53:02 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 24252 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:53:02 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:53:02 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:53:03 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:53:03 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:53:03 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:53:03 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:53:03 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:53:03 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:53:03 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:53:04 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:53:04 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1780 ms
+2024-04-24 00:53:06 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:53:06 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:53:06 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 5.517 seconds (JVM running for 6.218)
+2024-04-24 00:57:46 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 25145 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:57:46 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:57:46 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:57:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:57:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:57:47 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:57:48 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:57:48 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:57:48 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:57:48 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:57:48 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:57:48 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1945 ms
+2024-04-24 00:57:51 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:57:51 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:57:51 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 5.86 seconds (JVM running for 6.74)
+2024-04-24 00:59:24 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on 192.168.0.108 with PID 25473 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 00:59:24 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 00:59:24 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 00:59:25 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:59:25 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:59:25 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 00:59:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8388 (http)
+2024-04-24 00:59:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:59:25 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 00:59:25 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 00:59:25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 00:59:25 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1737 ms
+2024-04-24 00:59:28 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8388"]
+2024-04-24 00:59:28 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8388 (http) with context path ''
+2024-04-24 00:59:28 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 5.58 seconds (JVM running for 6.293)
+2024-04-24 01:01:20 [http-nio-8388-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-04-24 01:01:20 [http-nio-8388-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2024-04-24 01:01:20 [http-nio-8388-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2024-04-24 01:02:09 [http-nio-8388-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'file' for method parameter type String is not present]
+2024-04-24 01:03:17 [http-nio-8388-exec-4] ERROR c.g.p.m.c.controller.FileController - 
+com.jcraft.jsch.SftpException: 
+	at com.jcraft.jsch.ChannelSftp.cd(ChannelSftp.java:359)
+	at com.gykj.patch.manager.core.service.sftp.FileService.download(FileService.java:34)
+	at com.gykj.patch.manager.core.controller.FileController.download(FileController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NullPointerException: null
+	at com.jcraft.jsch.ChannelSftp.remoteAbsolutePath(ChannelSftp.java:2943)
+	at com.jcraft.jsch.ChannelSftp.cd(ChannelSftp.java:339)
+	... 44 common frames omitted
+2024-04-24 01:03:17 [http-nio-8388-exec-4] WARN  o.a.coyote.http11.Http11Processor - The HTTP response header [Content-Disposition] with value [attachment; filename=客商10条.csv] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [客] at code point [23,458] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:310)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:283)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:389)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:368)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1048)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:376)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.coyote.Response.sendHeaders(Response.java:437)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:291)
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:250)
+	at org.apache.catalina.connector.Response.finishResponse(Response.java:439)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:371)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-24 01:07:20 [http-nio-8388-exec-6] ERROR c.g.p.m.c.controller.FileController - 
+com.jcraft.jsch.SftpException: No such file
+	at com.jcraft.jsch.ChannelSftp.throwStatusError(ChannelSftp.java:2873)
+	at com.jcraft.jsch.ChannelSftp._stat(ChannelSftp.java:2225)
+	at com.jcraft.jsch.ChannelSftp.get(ChannelSftp.java:1318)
+	at com.jcraft.jsch.ChannelSftp.get(ChannelSftp.java:1290)
+	at com.gykj.patch.manager.core.service.sftp.FileService.download(FileService.java:36)
+	at com.gykj.patch.manager.core.controller.FileController.download(FileController.java:46)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:529)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:623)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:209)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:178)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:153)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:168)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:481)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:130)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-24 01:07:20 [http-nio-8388-exec-6] WARN  o.a.coyote.http11.Http11Processor - The HTTP response header [Content-Disposition] with value [attachment; filename=客商10条.csv] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [客] at code point [23,458] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:310)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:283)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:389)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:368)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1048)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:376)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.coyote.Response.sendHeaders(Response.java:437)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:291)
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:250)
+	at org.apache.catalina.connector.Response.finishResponse(Response.java:439)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:371)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-24 01:07:50 [http-nio-8388-exec-7] WARN  o.a.coyote.http11.Http11Processor - The HTTP response header [Content-Disposition] with value [attachment; filename=客商10条.csv] has been removed from the response because it is invalid
+java.lang.IllegalArgumentException: The Unicode character [客] at code point [23,458] cannot be encoded as it is outside the permitted range of 0 to 255
+	at org.apache.tomcat.util.buf.MessageBytes.toBytesSimple(MessageBytes.java:310)
+	at org.apache.tomcat.util.buf.MessageBytes.toBytes(MessageBytes.java:283)
+	at org.apache.coyote.http11.Http11OutputBuffer.write(Http11OutputBuffer.java:389)
+	at org.apache.coyote.http11.Http11OutputBuffer.sendHeader(Http11OutputBuffer.java:368)
+	at org.apache.coyote.http11.Http11Processor.prepareResponse(Http11Processor.java:1048)
+	at org.apache.coyote.AbstractProcessor.action(AbstractProcessor.java:376)
+	at org.apache.coyote.Response.action(Response.java:209)
+	at org.apache.coyote.Response.sendHeaders(Response.java:437)
+	at org.apache.catalina.connector.OutputBuffer.doFlush(OutputBuffer.java:291)
+	at org.apache.catalina.connector.OutputBuffer.close(OutputBuffer.java:250)
+	at org.apache.catalina.connector.Response.finishResponse(Response.java:439)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:371)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:928)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1794)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+2024-04-24 08:23:08 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 33394 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-24 08:23:08 [main] DEBUG c.g.p.m.PatchManagerApplication - Running with Spring Boot v2.7.18, Spring v5.3.31
+2024-04-24 08:23:08 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-24 08:23:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration' of type [com.mybatisflex.spring.boot.FlexTransactionAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 08:23:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'mybatis-flex-com.mybatisflex.spring.boot.MybatisFlexProperties' of type [com.mybatisflex.spring.boot.MybatisFlexProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 08:23:09 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration' of type [com.mybatisflex.spring.boot.MultiDataSourceAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-04-24 08:23:10 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2024-04-24 08:23:10 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2024-04-24 08:23:10 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-24 08:23:10 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-24 08:23:10 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-24 08:23:10 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1808 ms
+2024-04-24 08:23:13 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2024-04-24 08:23:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2024-04-24 08:23:13 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 6.001 seconds (JVM running for 6.774)

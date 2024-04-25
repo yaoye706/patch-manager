@@ -1,0 +1,113 @@
+2024-04-10 11:04:14 [main] INFO  c.g.p.m.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 83582 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:04:14 [main] INFO  c.g.p.m.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:04:15 [main] INFO  tech.powerjob.worker.PowerJobWorker - [PowerJobWorker] start to initialize PowerJobWorker...
+2024-04-10 11:04:15 [main] INFO  t.p.worker.common.PowerBannerPrinter - 
+ ███████                                          ██          ██
+░██░░░░██                                        ░██         ░██
+░██   ░██  ██████  ███     ██  █████  ██████     ░██  ██████ ░██
+░███████  ██░░░░██░░██  █ ░██ ██░░░██░░██░░█     ░██ ██░░░░██░██████
+░██░░░░  ░██   ░██ ░██ ███░██░███████ ░██ ░      ░██░██   ░██░██░░░██
+░██      ░██   ░██ ░████░████░██░░░░  ░██    ██  ░██░██   ░██░██  ░██
+░██      ░░██████  ███░ ░░░██░░██████░███   ░░█████ ░░██████ ░██████
+░░        ░░░░░░  ░░░    ░░░  ░░░░░░ ░░░     ░░░░░   ░░░░░░  ░░░░░
+
+* Maintainer: tengjiqi@gmail.com & PowerJob-Team
+* OfficialWebsite: http://www.powerjob.tech/
+* SourceCode: https://github.com/PowerJob/PowerJob
+
+
+2024-04-10 11:04:15 [main] INFO  t.p.worker.common.PowerBannerPrinter - :: PowerJob Worker ::  (v4.3.5)
+2024-04-10 11:04:31 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:06:12 [main] INFO  c.g.p.m.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 83923 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:06:12 [main] INFO  c.g.p.m.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:06:13 [main] INFO  tech.powerjob.worker.PowerJobWorker - [PowerJobWorker] start to initialize PowerJobWorker...
+2024-04-10 11:06:13 [main] INFO  t.p.worker.common.PowerBannerPrinter - 
+ ███████                                          ██          ██
+░██░░░░██                                        ░██         ░██
+░██   ░██  ██████  ███     ██  █████  ██████     ░██  ██████ ░██
+░███████  ██░░░░██░░██  █ ░██ ██░░░██░░██░░█     ░██ ██░░░░██░██████
+░██░░░░  ░██   ░██ ░██ ███░██░███████ ░██ ░      ░██░██   ░██░██░░░██
+░██      ░██   ░██ ░████░████░██░░░░  ░██    ██  ░██░██   ░██░██  ░██
+░██      ░░██████  ███░ ░░░██░░██████░███   ░░█████ ░░██████ ░██████
+░░        ░░░░░░  ░░░    ░░░  ░░░░░░ ░░░     ░░░░░   ░░░░░░  ░░░░░
+
+* Maintainer: tengjiqi@gmail.com & PowerJob-Team
+* OfficialWebsite: http://www.powerjob.tech/
+* SourceCode: https://github.com/PowerJob/PowerJob
+
+
+2024-04-10 11:06:13 [main] INFO  t.p.worker.common.PowerBannerPrinter - :: PowerJob Worker ::  (v4.3.5)
+2024-04-10 11:06:28 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:06:56 [main] INFO  c.g.p.m.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 84056 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:06:56 [main] INFO  c.g.p.m.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:06:57 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:09:08 [main] INFO  c.g.p.m.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 84456 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:09:08 [main] INFO  c.g.p.m.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:09:09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:10:03 [main] INFO  c.g.p.m.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 84620 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:10:03 [main] INFO  c.g.p.m.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:10:04 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:11:24 [main] INFO  c.g.p.m.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 84865 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:11:24 [main] INFO  c.g.p.m.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:11:25 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:14:10 [main] INFO  c.g.p.m.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 85350 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:14:10 [main] INFO  c.g.p.m.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:14:11 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:21:38 [main] INFO  c.g.p.m.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 86705 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:21:38 [main] INFO  c.g.p.m.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:21:39 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:23:29 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 87047 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:23:29 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:23:30 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:24:14 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 87200 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:24:14 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:24:16 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:25:51 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 87483 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:25:51 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:25:53 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-10 11:26:44 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 87649 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:26:44 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:26:45 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 1.676 seconds (JVM running for 2.24)
+2024-04-10 11:27:07 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 87715 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:27:07 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:27:09 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 1.754 seconds (JVM running for 2.289)
+2024-04-10 11:28:53 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 88036 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:28:53 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:28:54 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 1.508 seconds (JVM running for 2.032)
+2024-04-10 11:30:27 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 88324 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:30:27 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:30:28 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 1.577 seconds (JVM running for 2.105)
+2024-04-10 11:31:27 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 88496 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 11:31:27 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 11:31:28 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 1.487 seconds (JVM running for 2.054)
+2024-04-10 13:33:22 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 6652 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 13:33:22 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 13:33:23 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 1.748 seconds (JVM running for 2.312)
+2024-04-10 13:35:57 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 7122 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 13:35:57 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 13:35:58 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 1.677 seconds (JVM running for 2.293)
+2024-04-10 13:42:20 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 8246 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-10 13:42:20 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-10 13:42:21 [main] INFO  c.g.p.m.PatchManagerApplication - Started PatchManagerApplication in 1.547 seconds (JVM running for 2.072)

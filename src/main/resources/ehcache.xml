@@ -1,0 +1,51 @@
+<eh:config
+        xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+        xmlns:eh='http://www.ehcache.org/v3'
+        xmlns:jsr107='http://www.ehcache.org/v3/jsr107'
+        xsi:schemaLocation="
+        http://www.ehcache.org/v3 http://www.ehcache.org/schema/ehcache-core-3.10.xsd
+        http://www.ehcache.org/v3/jsr107  http://www.ehcache.org/schema/ehcache-107-ext-3.10.xsd">
+
+    <eh:cache-template name="commons-config">
+        <!--   过期时间     ttl:创建时间，tti:访问时间-->
+        <eh:expiry>
+            <eh:tti unit="hours">1</eh:tti>
+        </eh:expiry>
+        <eh:resources>
+            <eh:offheap unit="MB">10</eh:offheap>
+        </eh:resources>
+        <eh:heap-store-settings>
+            <eh:max-object-graph-size>2000</eh:max-object-graph-size>
+            <eh:max-object-size unit="kB">5</eh:max-object-size>
+        </eh:heap-store-settings>
+    </eh:cache-template>
+
+    <eh:cache alias="SysExchangeRate" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getSysCoaDetailLeaf" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getCoaNexusBos" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getCoaNexusBosByParentId" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getOrgNexusOfCollectOrg" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getOrgNexusOfSector" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getOrgMapOf2Level" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getOrgIdsOf2Level" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="isAnalysisOrgId" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getJqOrgOfMerge" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getJqOrgOfSelf" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getColOfSubjectId" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getChildOfAdjustOrgId" uses-template="commons-config">
+    </eh:cache>
+    <eh:cache alias="getDictByType" uses-template="commons-config">
+    </eh:cache>
+</eh:config>

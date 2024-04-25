@@ -1,0 +1,49 @@
+2024-04-11 15:05:06 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 5967 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-11 15:05:06 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-11 15:09:22 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 6734 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-11 15:09:22 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-11 15:15:20 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 7825 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-11 15:15:20 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-11 17:26:11 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 30647 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-11 17:26:11 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-11 17:39:21 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 32970 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-11 17:39:21 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-11 17:39:22 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-04-11 17:39:22 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-11 17:39:22 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-11 17:39:22 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-11 17:39:23 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-11 17:39:23 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1310 ms
+2024-04-11 17:39:24 [main] INFO  tech.powerjob.worker.PowerJobWorker - [PowerJobWorker] start to initialize PowerJobWorker...
+2024-04-11 17:39:24 [main] INFO  t.p.worker.common.PowerBannerPrinter - 
+ ███████                                          ██          ██
+░██░░░░██                                        ░██         ░██
+░██   ░██  ██████  ███     ██  █████  ██████     ░██  ██████ ░██
+░███████  ██░░░░██░░██  █ ░██ ██░░░██░░██░░█     ░██ ██░░░░██░██████
+░██░░░░  ░██   ░██ ░██ ███░██░███████ ░██ ░      ░██░██   ░██░██░░░██
+░██      ░██   ░██ ░████░████░██░░░░  ░██    ██  ░██░██   ░██░██  ░██
+░██      ░░██████  ███░ ░░░██░░██████░███   ░░█████ ░░██████ ░██████
+░░        ░░░░░░  ░░░    ░░░  ░░░░░░ ░░░     ░░░░░   ░░░░░░  ░░░░░
+
+* Maintainer: tengjiqi@gmail.com & PowerJob-Team
+* OfficialWebsite: http://www.powerjob.tech/
+* SourceCode: https://github.com/PowerJob/PowerJob
+
+
+2024-04-11 17:39:24 [main] INFO  t.p.worker.common.PowerBannerPrinter - :: PowerJob Worker ::  (v4.3.5)
+2024-04-11 17:39:39 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-11 17:39:39 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2024-04-11 17:41:23 [main] INFO  c.g.p.m.PatchManagerApplication - Starting PatchManagerApplication using Java 1.8.0_341 on yaoyedeMacBook-Pro.local with PID 33350 (/Users/yaoye/诚通私库/patch-manager/target/classes started by yaoye in /Users/yaoye/诚通私库/patch-manager)
+2024-04-11 17:41:23 [main] INFO  c.g.p.m.PatchManagerApplication - The following 1 profile is active: "dev"
+2024-04-11 17:41:25 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2024-04-11 17:41:25 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2024-04-11 17:41:25 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2024-04-11 17:41:25 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.83]
+2024-04-11 17:41:25 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2024-04-11 17:41:25 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1437 ms
+2024-04-11 17:41:26 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2024-04-11 17:41:26 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
